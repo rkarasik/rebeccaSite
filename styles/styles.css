@@ -11,36 +11,37 @@ padding-right: 20px;
 }
 
 #wrapper{
-	width: 850px;
-	height: 80px;
+	width: 900px;
+	height: 50px;
 	margin: 0 auto;
-	padding-left: 20px;
-	padding-right: 20px;
+/*	padding-left: 5px;
+	padding-right: 5px;*/
 	border: ridge;
 	border-color: #f00;
 }
 
 #wrapper ul {
+/*	float: left;*/
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-#wrapper ul li {float:left;
+    margin: 0 auto;
+	text-align: center;
 	display: inline-block;
-	width: 90px;
-	height: 30px;
+	width: 890px;
 }
 
-#wrapper li {
+#wrapper ul li {
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	font-size: 10pt;
 	border-top: 5px solid #E9EFE5;
 	color: #000;
 	text-decoration: none;
-	border-left: 5px solid #4F633F;
-	padding-left: 2px;
-	width: 90%;
+	/*border-left: 5px solid #4F633F;*/
+	/*padding-left: 2px;*/
 }
+
 
 #wrapper li a:hover{
 text-decoration: none;
